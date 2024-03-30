@@ -1,0 +1,15 @@
+# Dealing with Side Effects
+
+## Keeping the UI Synchronized
+
+- Understanding Side Effects & useEffect()
+- Effects & Dependencies
+- When NOT to use useEffect()
+
+# Steps
+
+## 0. Starting Project
+
+1. run `npm install`
+2. run `npm run dev`
+3. create a `README.md` file
