@@ -27,3 +27,7 @@
 
 1. import `useEffect` from React in `App.jsx`
 2. execute the `useEffect` hook inside the `App.jsx` component
+
+## 4. Not All Side Effects Need useEffect
+
+1. store the entire list of selected places in the browser storage with help of `localStorage` browser function in `App.jsx`
