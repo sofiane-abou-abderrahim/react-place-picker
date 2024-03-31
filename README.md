@@ -18,3 +18,7 @@
 
 1. get the user's current location in `App.jsx`
 2. use the `sortPlacesByDistance` function imported from `loc.js`
+
+## 2. A Potential Problem with Side Effects: An Infinite Loop
+
+1. add a `availablePlaces`state to manage the available places in `App.jsx`
