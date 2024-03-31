@@ -13,3 +13,8 @@
 1. run `npm install`
 2. run `npm run dev`
 3. create a `README.md` file
+
+## 1. What's a "Side Effect"? A Thorough Example
+
+1. get the user's current location in `App.jsx`
+2. use the `sortPlacesByDistance` function imported from `loc.js`
