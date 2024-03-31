@@ -31,3 +31,10 @@
 ## 4. Not All Side Effects Need useEffect
 
 1. store the entire list of selected places in the browser storage with help of `localStorage` browser function in `App.jsx`
+
+## 5. useEffect Not Needed: Another Example
+
+1. delete items from local storage in `App.jsx`
+2. fetch the items when the app starts
+3. use `useEffect` to show that it is a redondant usage of `useEffect`
+4. use `storedPlaces` to initialize the `pickedPlaces` state instead of `useEffect`
