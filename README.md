@@ -22,3 +22,8 @@
 ## 2. A Potential Problem with Side Effects: An Infinite Loop
 
 1. add a `availablePlaces`state to manage the available places in `App.jsx`
+
+## 3. Using useEffect for Handling (Some) Side Effects
+
+1. import `useEffect` from React in `App.jsx`
+2. execute the `useEffect` hook inside the `App.jsx` component
