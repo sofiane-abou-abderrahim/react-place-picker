@@ -47,3 +47,7 @@
 
 1. try to open the modal in `Modal.jsx` without `useEffect()`
 2. use `useEffect()` to synchronize the `open` prop to the `showModal()` & `close()` DOM APIs
+
+## 8. Understanding Effect Dependencies
+
+1. add the `open` prop as one of the `useEffect` dependencies in `Modal.jsx`
