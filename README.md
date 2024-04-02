@@ -38,3 +38,7 @@
 2. fetch the items when the app starts
 3. use `useEffect` to show that it is a redondant usage of `useEffect`
 4. use `storedPlaces` to initialize the `pickedPlaces` state instead of `useEffect`
+
+## 6. Preparing Another Use-Case For useEffect
+
+1. use another alternative to open & close the modal in `Modal.jsx` & `App.jsx`
