@@ -51,3 +51,8 @@
 ## 8. Understanding Effect Dependencies
 
 1. add the `open` prop as one of the `useEffect` dependencies in `Modal.jsx`
+
+## 9. Fixing a Small Bug
+
+1. listen to the modal being closed by adding the built-in `onClose` prop to the `<dialog>`
+2. In `App.jsx`, set the `handleStopRemovePlace` function as a value for the `onClose` prop on the `<Modal>` component
