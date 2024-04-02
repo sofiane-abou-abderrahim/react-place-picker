@@ -42,3 +42,8 @@
 ## 6. Preparing Another Use-Case For useEffect
 
 1. use another alternative to open & close the modal in `Modal.jsx` & `App.jsx`
+
+## 7. Using useEffect for Syncing With Browser APIs
+
+1. try to open the modal in `Modal.jsx` without `useEffect()`
+2. use `useEffect()` to synchronize the `open` prop to the `showModal()` & `close()` DOM APIs
