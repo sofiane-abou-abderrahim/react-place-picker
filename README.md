@@ -75,3 +75,10 @@
 ## 13. The useCallback Hook
 
 1. wrap the `handleRemovePlace` function with the`useCallback`hook in`App.jsx` to prevent it from recreating again
+
+## 14. useEffect's Cleanup Function: Another Example
+
+1. add a progress bar in `DeleteConfirmation.jsx`
+2. add a `useState` hook to manage the progress bar remaining time
+3. add a `setInterval` function to update this state
+4. return a cleanup function to stop the interval
