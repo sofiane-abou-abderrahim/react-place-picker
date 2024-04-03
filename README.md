@@ -67,3 +67,7 @@
 
 1. use `useEffect` in `DeleteConfirmation.jsx` to stop the timer when the `<DeleteConfirmation>` component disappears
 2. return a cleanup function inside the Effect function
+
+## 12. The Problem with Object & Function Dependencies
+
+1. add the `onConfirm` prop as a dependency of the `useEffect` function in `DeleteConfirmation.jsx`
