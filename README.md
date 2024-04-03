@@ -82,3 +82,8 @@
 2. add a `useState` hook to manage the progress bar remaining time
 3. add a `setInterval` function to update this state
 4. return a cleanup function to stop the interval
+
+## 15. Optimizing State Updates
+
+1. outsource the progress indicator & the related state logic & the useEffect hook into a seperate component for better performance
+2. create a `ProgressBar.jsx` component
