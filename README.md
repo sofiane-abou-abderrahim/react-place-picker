@@ -71,3 +71,7 @@
 ## 12. The Problem with Object & Function Dependencies
 
 1. add the `onConfirm` prop as a dependency of the `useEffect` function in `DeleteConfirmation.jsx`
+
+## 13. The useCallback Hook
+
+1. wrap the `handleRemovePlace` function with the`useCallback`hook in`App.jsx` to prevent it from recreating again
