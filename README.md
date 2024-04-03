@@ -56,3 +56,9 @@
 
 1. listen to the modal being closed by adding the built-in `onClose` prop to the `<dialog>`
 2. In `App.jsx`, set the `handleStopRemovePlace` function as a value for the `onClose` prop on the `<Modal>` component
+
+## 10. Preparing Another Problem That Can Be Fixed with useEffect
+
+1. set a timer in `DeleteConfirmation.jsx`
+2. try to conditionally render `<DeleteConfirmation>` component in `App.jsx`
+3. or conditionally render the `{children}` prop in `Modal.jsx`
