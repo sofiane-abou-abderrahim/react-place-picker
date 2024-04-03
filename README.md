@@ -62,3 +62,8 @@
 1. set a timer in `DeleteConfirmation.jsx`
 2. try to conditionally render `<DeleteConfirmation>` component in `App.jsx`
 3. or conditionally render the `{children}` prop in `Modal.jsx`
+
+## 11. Introducing useEffect's Cleanup Function
+
+1. use `useEffect` in `DeleteConfirmation.jsx` to stop the timer when the `<DeleteConfirmation>` component disappears
+2. return a cleanup function inside the Effect function
